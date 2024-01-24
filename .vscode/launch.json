@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "LPU_JAVA_G2_JAN24_96b64824"
+        },
+        {
+            "type": "java",
+            "name": "LPU",
+            "request": "launch",
+            "mainClass": "LPU",
+            "projectName": "LPU_JAVA_G2_JAN24_96b64824"
+        }
+    ]
+}
