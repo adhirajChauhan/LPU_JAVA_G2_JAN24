@@ -20,8 +20,48 @@ class LPU{
 
 
         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
-        System.out.println((arr[2][2]));
+        
+        //print entire array
 
+        // for(int row = 0; row < arr.length; row++){
+        //     for(int col = 0; col < arr[0].length; col++){
+        //         System.out.print(arr[row][col] + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        //print first and last row
+        // for(int row = 0; row < arr.length; row++){
+        //     for(int col = 0; col < arr[0].length; col++){
+        //         if(row == 0 || row == arr.length-1){
+        //             System.out.print(arr[row][col] + " ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        //print border elements of a 2d array
+
+        // for(int row = 0; row < arr.length; row++){
+        //     for(int col = 0; col < arr[0].length; col++){
+        //         if(row == 0 || row == arr.length - 1 || col == 0 || col == arr[0].length - 1){
+        //             System.out.print(arr[row][col] + " ");
+        //         }
+        //         else{
+        //             System.out.print("  ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        // int min = arr[0][0];
+        // for(int row = 0; row < arr.length; row++){
+        //     for (int col = 0; col < arr[0].length; col++){
+        //         if(arr[row][col] < min){
+        //             min = arr[row][col];
+        //         }
+        //     }
+        // }
     }
 }
 
