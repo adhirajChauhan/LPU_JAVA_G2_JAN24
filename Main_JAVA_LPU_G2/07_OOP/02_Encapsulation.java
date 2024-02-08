@@ -17,7 +17,7 @@ class Account{
     }
 
     public void setAccName(String val){
-        accName = val;
+        this.accName = val;
     }
 }
 
