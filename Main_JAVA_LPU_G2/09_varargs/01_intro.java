@@ -15,6 +15,8 @@ class LPU{
     public static void main(String args[]){
         Test obj1 = new Test();
 
-        System.out.println(obj1.add(2,3,4,5)); 
+        // System.out.println(obj1.add(2,3,4,5)); 
+
+        System.out.println(args[0]);
     }
 }
