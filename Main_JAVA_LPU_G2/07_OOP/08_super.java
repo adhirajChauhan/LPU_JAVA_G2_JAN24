@@ -1,5 +1,7 @@
+
 class A{
     public A(){ //a1
+        super();
         System.out.println("From A");
     }
 
@@ -19,6 +21,7 @@ class B extends A{
     }
 
     public B(int n){ //B2
+        super();
         System.out.println("From B int");
     }
 }
@@ -26,6 +29,6 @@ class B extends A{
 class LPU{
     public static void main(String args[]){
         
-        A a1 = new B();
+        B a1 = new B();
     }
 }
