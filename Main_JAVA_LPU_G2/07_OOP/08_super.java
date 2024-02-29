@@ -21,7 +21,7 @@ class B extends A{
     }
 
     public B(int n){ //B2
-        super();
+        super(n, n);
         System.out.println("From B int");
     }
 }
