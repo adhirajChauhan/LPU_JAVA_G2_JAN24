@@ -7,7 +7,7 @@ class Increment{
 }
 
 class LPU{
-    public static void main(String args[]) throws InterruptedException{
+    public static void main(String args[]){
 
         Increment inc = new Increment();
 
@@ -29,8 +29,16 @@ class LPU{
         t1.start();
         t2.start();
 
-        t1.join();
-        t2.join();
+        try {
+            t1.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        try {
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         System.out.println(inc.a);
     }
